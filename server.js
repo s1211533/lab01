@@ -4,7 +4,7 @@ const express = require('express');
 const fetch = require('node-fetch');
 
 const app = express();
-const APIKEY = "";  //signup at api.openweathermap.org and obtain an API Key
+const APIKEY = "afc15ca2ecb13bb8b1902e6f19200d41";  //signup at api.openweathermap.org and obtain an API Key
 
 var options = {
     host: 'api.openweathermap.org',
